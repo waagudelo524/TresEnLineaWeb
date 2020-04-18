@@ -2,6 +2,7 @@
     clip-path: polygon(0 0, 100% 0%, 100% 79%, 0% 100%);
     background: #000000;
     height: 30vh;
+    min-height: 300px;
 }
 
 
@@ -48,19 +49,17 @@
 }
 
 .footer{
-       
-    
     position: fixed;
-    bottom: 0;
+    bottom: 0;    
+   margin-bottom: 0;
+   background: #0C97C1;
 }
 
 
-.letra_footer{
-    position: absolute;
-    bottom: 0;
+.letra_footer{    
     width: 100%;
     text-align: center;
-    color: #999999;    
+    color: #FFFFFF;    
     font-size: 15px;
     font-family: sans-serif;
 }
