@@ -1,0 +1,66 @@
+.forma{
+    clip-path: polygon(0 0, 100% 0%, 100% 79%, 0% 100%);
+    background: #000000;
+    height: 30vh;
+}
+
+.footer{
+    clip-path: polygon(0 20%, 100% 0%, 100% 100%, 0% 100%);
+    height: 200px;
+    background: #0C97C1;
+    position: fixed;
+    bottom: 0;
+}
+
+.img_tresenlinea{
+    margin: auto;
+    width: 30%;
+    min-width: 200px;
+
+}
+
+.logo{
+    width: 80px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);    
+}
+
+.descarga{
+    font-size: 40px;
+}
+
+.boton{
+    margin: auto;
+    background: #0C97C1;
+    padding: 10px;
+    max-width: 350px;
+    border-radius: 10px;
+    transition: 0.3s;
+    
+}
+
+.boton:hover{
+    background: rgb(31, 185, 231);
+}
+
+.letra_boton{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 22px;
+}
+
+.letra_boton:hover{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.letra_footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: #FFF;
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-family: sans-serif;
+}
